@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family');
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f0ebeb;
+    color: #000000;
+    height: 100%;
+}
+
+header {
+    text-align: center;
+    font-size: 20px;
+    font-family:"Quicksand", sans-serif;
+    margin: 30px
+    
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; 
+    align-items: center;
+    flex-grow: 1;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+    background-color: rgb(206, 122, 154);
+    margin-top: 23px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+}
+
+a:hover{
+    background-color: #e4c4c4;
+    border: 1px dashed #000000;
+    
+}
+
+.clase1{
+    width: 33.1%;
+ 
+}
+
+.clase2{
+    width: 49.8%;
+}
+
+.clase3{
+    width: 100%;
+}
+
+.clase4 {
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+    background-image: url(Data/animacion.jpg);
+    animation: animacion 3s infinite;
+    animation-timing-function: steps(8); 
+}
+
+@keyframes animacion {
+    0% {background-position: 0px 0px;}
+    100% {background-position: -1600px 0px;} 
+}
+
+.clase5 {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 45px 0;
+    font-family:"Quicksand", sans-serif;
+    background-color:rgb(206, 122, 154);
+    color: white;
+    
+}
